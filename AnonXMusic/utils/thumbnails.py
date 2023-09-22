@@ -103,7 +103,7 @@ async def get_thumb(videoid):
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(70))
         enhancer = ImageEnhance.Brightness(background)
-        background = enhancer.enhance(0.1)
+        background = enhancer.enhance(0.7)
         Xcen1 = image1.width / 2
         Ycen1 = image1.height / 2
         Xcen2 =xp.width / 2
