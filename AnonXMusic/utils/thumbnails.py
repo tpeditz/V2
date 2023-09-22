@@ -13,7 +13,7 @@ from AnonXMusic import app
 from config import YOUTUBE_IMG_URL
 
 
-MUSIC_BOT_NAME = "ɴᴏᴛʜɪɴɢ ᴍᴜsɪᴄ"
+MUSIC_BOT_NAME = "NOTHING MUSIC"
 
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
@@ -103,7 +103,7 @@ async def get_thumb(videoid):
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(70))
         enhancer = ImageEnhance.Brightness(background)
-        background = enhancer.enhance(0.5)
+        background = enhancer.enhance(0.1)
         Xcen1 = image1.width / 2
         Ycen1 = image1.height / 2
         Xcen2 =xp.width / 2
