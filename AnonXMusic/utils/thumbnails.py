@@ -8,7 +8,7 @@ import numpy as np
 from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
-from StrangerMusic import app
+from AnonXMusic import app
 
 from config import YOUTUBE_IMG_URL,MUSIC_BOT_NAME
 
@@ -114,13 +114,13 @@ async def gen_thumb(videoid,user_id):
         b.pieslice([(960,240), (1230,510)], 0, 360,outline ='black',width=10)
     
         draw=ImageDraw.Draw(background)
-        font = ImageFont.truetype("assets/TiltWarp-Regular.ttf",35)
-        font2 = ImageFont.truetype("assets/FasterOne-Regular.ttf",75)
-        arial = ImageFont.truetype("assets/font2.ttf", 30)
-        name_font = ImageFont.truetype("assets/font6.ttf", 30)
-        font3=ImageFont.truetype("assets/font3.ttf",30)
-        font4=ImageFont.truetype("assets/font4.ttf",30)
-        font5=ImageFont.truetype("assets/Gugi-Regular.ttf",40)
+        font = ImageFont.truetype("AnonXMusic/assets/TiltWarp-Regular.ttf",35)
+        font2 = ImageFont.truetype("AnonXMusic/assets/FasterOne-Regular.ttf",75)
+        arial = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 30)
+        name_font = ImageFont.truetype("AnonXMusic/assets/font6.ttf", 30)
+        font3=ImageFont.truetype("AnonXMusic/assets/font3.ttf",30)
+        font4=ImageFont.truetype("AnonXMusic/assets/font4.ttf",30)
+        font5=ImageFont.truetype("AnonXMusic/assets/Gugi-Regular.ttf",40)
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
