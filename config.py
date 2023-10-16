@@ -22,10 +22,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Nothing Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Streamer")
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5339377884))
+OWNER_ID = int(getenv("OWNER_ID", 5109613899)
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/nothing022/V2",
+    "https://github.com/tpeditz/V2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NothingBotz")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NothingBots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Idsp_bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Bots_talkk")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,10 +81,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/c82a13d06a6b91e75f031.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/0220eb2bacdb6c1ddb23f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/c82a13d06a6b91e75f031.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/0220eb2bacdb6c1ddb23f.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
