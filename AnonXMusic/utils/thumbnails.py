@@ -13,7 +13,7 @@ from AnonXMusic import app
 from config import YOUTUBE_IMG_URL
 
 
-MUSIC_BOT_NAME = "NOTHING MUSIC"
+MUSIC_BOT_NAME = "MUSIC STREAMER"
 
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
